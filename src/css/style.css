@@ -1,544 +1,661 @@
 .main_image {
-    width: 100%;
-    height: 850px;
-    position: relative;
-    background-color: #000000;
-    
-   
+  width: 100%;
+  height: 850px;
+  position: relative;
+  background-color: #000000;
 }
 .main_image_child {
-    width: 100%;
-    height: 100%;
-    background-image: url("../imgs/pic5.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/pic5.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo {
-    width:100px;
-    height:100px;
-    background-image: url("../imgs//logo.webp");
-    margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: url("../imgs//logo.webp");
+  margin-right: 20px;
 }
 
 .logo_text {
-    color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .logo_text:hover {
-    color: rgb(190, 30, 30);
+  color: rgb(190, 30, 30);
 }
 
 .img1 {
-    width:100%;
-    height: 700px;
-    background-image: url("../imgs/pic3.jpg");
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    background-size: cover;
-    margin-bottom: 40px;
+  width: 100%;
+  height: 700px;
+  background-image: url("../imgs/pic3.jpg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-size: cover;
+  margin-bottom: 40px;
 }
 
 .img2 {
-    width: 100%;
-    height: 560px;
-    background-image: url("../imgs/mother.webp");
-    background-repeat: no-repeat;
-    padding-left: 5%;
-    border-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-size: conatin;
+  width: 100%;
+  height: 560px;
+  background-image: url("../imgs/mother.webp");
+  background-repeat: no-repeat;
+  padding-left: 5%;
+  border-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: conatin;
 }
 
 .header {
-    font-size: 25px;
-    font-weight: 300;
-    padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 20px;
 }
 
 .flex_parent {
-    display: flex;
-    width: 90%;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 8%;
-    padding-bottom: 8%;
-  
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .flex_parent.description_container {
-    width: 45%;
+  width: 45%;
 }
 
 .image_container {
-    width: 35%;
+  width: 35%;
 }
 
 .flex_parent_bg {
-    background-image: url("../imgs/red_cover.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    color: #f2e0e0;
+  background-image: url("../imgs/red_cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #f2e0e0;
 }
 
 .description_container {
-    font-size: 17px;
-    width:50%;
+  font-size: 17px;
+  width: 50%;
 }
 
 .flex_parent2 {
-    background-image: url("../imgs/gray_cover.png");
-    display: flex;
-    justify-content: space-around;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    padding-left: 15%;
-    padding-right: 15%;
+  background-image: url("../imgs/gray_cover.png");
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
-
 .menu {
-    color: white !important;
-    padding-left: 2%;
-    filter: brightness(85%);
-    background: linear-gradient(#101b21 100%, transparent 100%);
+  color: white !important;
+  padding-left: 2%;
+  filter: brightness(85%);
+  background: linear-gradient(#101b21 100%, transparent 100%);
 }
 
 .white_text {
-    color: white;
+  color: white;
 }
 
-a.nav-link{
-    color: white;
-    margin-right: 10px;
+a.nav-link {
+  color: white;
+  margin-right: 10px;
 }
-
 
 a.nav-link:hover {
-    color: rgb(190, 30, 30);
+  color: rgb(190, 30, 30);
 }
 
 .card_img1 {
-    height: 500px;
-    width:100%;
-    background-image: url("../imgs/concert1.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
+  height: 500px;
+  width: 100%;
+  background-image: url("../imgs/concert1.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .card_img2 {
-    height: 500px;
-    width:100%;
-    background-image: url("../imgs/concert2.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+  height: 500px;
+  width: 100%;
+  background-image: url("../imgs/concert2.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .card_size {
-    width: 90%;
+  width: 90%;
 }
 
 .events_header {
-    padding-top: 20px;
-    padding-bottom: -10px;
+  padding-top: 20px;
+  padding-bottom: -10px;
 }
 
-
 .adress {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .center_header {
-    text-align: center;
-    margin-top: 40px;
-   
+  text-align: center;
+  margin-top: 40px;
 }
 
 .blond_header {
-    font-style: oblique;
-    font-size: 50px;
+  font-style: oblique;
+  font-size: 50px;
 }
 
 .padding {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .flex_parent_social_media {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
-
 .icon {
-    padding-right: 30px;
-    color: #FFFFFF;
+  padding-right: 30px;
+  color: #ffffff;
 }
 
 .marke {
-    padding-left: 5px;
-    text-decoration: none;
+  padding-left: 5px;
+  text-decoration: none;
 }
 
 .heart {
-    padding-left: 5px;
-    padding-right: 5px;
-    white-space:nowrap;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: nowrap;
 }
 
 .event1_image {
-    background-image: url("../imgs/concert2.webp");
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../imgs/concert2.webp");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .event2_image {
-    background-image: url("../imgs/concert1.webp");
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../imgs/concert1.webp");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .event_container {
-    background-color: #091217;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: #FFFFFF;
+  background-color: #091217;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff;
 }
 
 .event_header {
-    text-align: center;
+  text-align: center;
 }
 .event_cover {
-    width: 100%;
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #091217;
-  
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #091217;
 }
 
 .event_cover_img {
-    background-image: url("../imgs/flamenco.png");
+  background-image: url("../imgs/flamenco.png");
+  width:100%;
+  height: 550px;
 }
 
 .cover_height {
-    height: 550px;
+  height: 550px;
 }
 
 .event_info {
-    width: 70%;
-    padding-left: 26%;
-    padding-top: 30px;
+  width: 70%;
+  padding-left: 26%;
+  padding-top: 30px;
 }
 
 .titel_main_container {
-    padding-top: 38%;
+  padding-top: 38%;
 }
 
 .titel {
-    color: #ffffff;
-    position: absolute;
-    font-family: playfairdisplay-bold,playfair display,serif;
-    font-size: 70px;
-   
-    padding-left: 10%;
+  color: #ffffff;
+  position: absolute;
+  font-family: playfairdisplay-bold, playfair display, serif;
+  font-size: 70px;
+
+  padding-left: 10%;
 }
 
 .biogrphy_image {
-    background-image: url("../imgs/piano_violin.png");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-  
+  background-image: url("../imgs/piano_violin.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 .header_small_container {
-    padding-top: 28%;
+  padding-top: 28%;
 }
 
-
-
 .bio_container {
-    background-color: #000000;
-    width: 100%;
-    height: auto;
+  background-color: #000000;
+  width: 100%;
+  height: auto;
 }
 
 .bio_text {
-    color: #c9c9c9;
-    text-align: left;
-    width: 60%;
-    margin: auto;
-    font-size: 20px;
-    padding-top: 80px;
-    padding-bottom: 100px;
-    font-family: avenir-lt-w05_35-light, sans-serif;
-    font-weight: 400;
+  color: #c9c9c9;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  font-family: avenir-lt-w05_35-light, sans-serif;
+  font-weight: 400;
 }
 
 .bio_header {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .video_image {
-    background-image: url("../imgs/video_cover.png");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:top;
+  background-image: url("../imgs/video_cover.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .video_list {
-    background-color: #0C0A0A;
-    width:100%;
-    height: auto;
+  background-color: #0c0a0a;
+  width: 100%;
+  height: auto;
 }
 
 .video_container {
-    display: flex;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    padding-bottom: 70px;
-    padding-top: 50px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #0C0A0A;
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #0c0a0a;
 }
 
-
 .video_container div {
-    width: 400px;
-    height: 300px;
-    margin: 50px;
-
+  width: 400px;
+  height: 300px;
+  margin: 50px;
 }
 
 .video_container div iframe {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.youtube{
-    position: relative;
-    width: var(--width);
-    height: var(--height);
-    background-color: #e21;
-    padding: 0 15px;
-    border-radius: 50% / 11%;
+.youtube {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  background-color: #e21;
+  padding: 0 15px;
+  border-radius: 50% / 11%;
 }
-.youtube::before{
-    content: "";
-    position: absolute;
-    background: inherit;
-    top: 10%;
-    bottom: 10%;
-    right: -5%;
-    left: -4.5%;
-    border-radius: 5% / 50%;
+.youtube::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -4.5%;
+  border-radius: 5% / 50%;
 }
-.arrow{
-    width: 100%;
-    height: var(--height);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 3px;
+.arrow {
+  width: 100%;
+  height: var(--height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
 }
-.arrow::before{
-    content: "";
-    z-index: 1;
-    width: 0;
-    height: 0;
-    border-left: 25px solid #fff;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+.arrow::before {
+  content: "";
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-left: 25px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 h6 {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact_container {
-    display: flex;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 .contact_container div {
-    padding: 30px;
+  padding: 30px;
+}
+
+.bio_img_container {
+  width: 40%;
+  height: 400px;
+  background-color: red;
+  margin-bottom: 25px;
+}
+
+.bio_img_oscar {
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bio_img_marina {
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/mother.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 390px) {
+  .flex_parent {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .flex_parent2 {
+    flex-direction: column;
+    padding: 0px;
+    height: 1530px;
+  }
+
+  .flex_parent:first-child {
+    padding-left: 10px;
+    border-radius: 0px;
+  }
+
+  .img1 {
+    height: 450px;
+    border-radius: 0px;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+
+  .img2 {
+    height: 450px;
+    border-radius: 0px;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .main_image_child {
+    background-image: url("../imgs/pic1_phone.jpg");
+    background-size: contain;
+    height: 100%;
+  }
+
+  .main_image {
+    height: 552px;
+  }
+
+  .logo_text {
+    font-size: 17px;
+    margin-right: 130px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .logo {
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+  }
+
+  .header {
+    padding-top: 20px;
+  }
+  .flex_text {
+    width: 95%;
+  }
+
+  .blond_header {
+    font-size: 30px;
+  }
+  .center_header {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .card_flex {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  .card_img1 {
+    height: 330px;
+  }
+
+  .card_img2 {
+    height: 330px;
+  }
+
+  .margin_bt {
+    margin-bottom: 30px;
+  }
+
+  .align_menu_phone {
+    flex-direction: row;
+  }
+
+  .toggle_menu {
+    background-color: #e0e0e0;
+  }
+  .titel {
+    font-size: 30px;
+    padding-top: 127%;
+  }
+
+  .biogrphy_image {
+    background-image: url("../imgs/bio_cover_phone2.png");
+  }
+
+  .video_image {
+    background-image: url("../imgs/bio_cover_phone2.png");
+  }
+
+  .bio_text {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  .video_container {
+    width: 100%;
+  }
+
+  .event_info {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  .one_event_cover {
+    height: 360px;
+  }
+
+  .concert_header {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  .event1_image {
+    height: 350px;
+    background-color: #000000;
+  }
+
+  .event2_image {
+    height: 350px;
+    background-color: #000000;
+  }
+
+  .contact_container {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+  .image_container {
+    width: 100%;
+}
+.description_container {
+    font-size: 17px;
+    width: 90%;
+    padding-left: 10px;
+    height: 680px;
+}
+.bio_img_container {
+    width: 100%;
+}
+
+.contact_container {
+    width: 100%;
 }
 
 
-@media only screen and (max-width: 390px) {
-    .flex_parent {
-        flex-direction: column;
-        padding: 0px;
-       
-    }
+}
 
-    .flex_parent2 {
-        flex-direction: column;
-        padding: 0px;
-       
-    }
-
-    .flex_parent:first-child {
-        padding-left: 10px;
-        border-radius: 0px;
-    }
-
-    .img1 {
-        height: 450px;
-        border-radius: 0px;
-        margin-top: 80px;
-        margin-left: 10px;
-    
-    }
-
-    .img2 {
-        height: 450px;
-        border-radius: 0px;
-        margin-top: 30px;
-        width:100%;
-    }
-
-    .main_image_child {
-        background-image: url("../imgs/pic1_phone.jpg");
-        background-size: contain;
-        height: 100%;
-    }
-
-    .main_image {
-        height: 552px;
-    }
-
-    .logo_text {
-        font-size: 17px;
-        margin-right: 130px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
-
-    .logo {
-        margin: 0px;
-        width: 70px;
-        height: 70px;
-        background-size: contain;
-    }
-
-    .header {
-        padding-top: 20px;
-    }
-    .flex_text {
-        width: 95%;
-    }
-
-    .blond_header {
-        font-size: 30px;
-    }
-    .center_header {
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-    .card_flex {
-        margin-left: 30px;
-        margin-top: 40px;
-    }
-
-    .card_img1 {
-        height: 330px;
-    }
-
-    .card_img2 {
-        height: 330px;
-    }
-
-    .margin_bt {
-        margin-bottom: 30px;
-    }
-
-    .align_menu_phone {
-        flex-direction: row;
-    }
-
-    .toggle_menu {
-        background-color: #E0E0E0;
-    }
-    .titel {
-        font-size: 30px;
-        padding-top: 127%;
-    }
-
-    .biogrphy_image {
-        background-image: url("../imgs/bio_cover_phone2.png");
-    }
-
-    .video_image {
-        background-image: url("../imgs/bio_cover_phone2.png");
-    }
-
-    .bio_text {
-        width: 80%;
-        font-size: 17px;
-    }
-
-    .video_container  {
-      width: 100%;
-    
-    }
-
-    .event_info {
-        width:90%;
-        padding-left: 10%;
-    }
-
-    .one_event_cover {
-        height: 360px;
-    }
-
-    .concert_header {
-        font-size: 22px;
-    }
-
-    h4 {
-        font-size: 19px;
-    }
-
-    .event1_image {
-
-        height: 350px;
-        background-color: #000000;
-     
-    }
-
-    .event2_image {
-
-        height: 350px;
-        background-color: #000000;
-     
-    }
-
-    .contact_container {
-        flex-direction: column;
-    }
-
-    .menu {
-        flex-direction: row;
-    }
-
+@media only screen and (max-width: 280px) {
+  .logo_text {
+    display: contents;
+    font-size: 15px;
   }
 
+  .titel {
+    padding-top: 155%;
+    padding-left: 3%;
+  }
+
+  .flex_parent {
+    display: flex;
+    width: 100%;
+  }
+
+  .flex_parent.description_container {
+    width: 90%;
+  }
+
+
+
+  .img1 {
+    margin-left: 0;
+  }
+
+  .flex_parent:first-child {
+    padding-left: 0px;
+    border-radius: 0px;
+  }
+  .description_container {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .header {
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  .img1 {
+    margin-bottom: 5px;
+  }
+
+  .flex_parent {
+    height: auto;
+  }
+
+  .flex_parent_bg {
+    height: 1200px;
+  }
+
+  .description_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex_parent2 {
+    height: 1300px;
+    
+  }
+
+  .img1 {
+    margin-bottom: 5px;
+    height:280px;
+  }
+
+  .img2 {
+    height:280px;
+    background-size: contain;
+  }
+
+  .image_container {
+    margin-left:25px;
+    width: 90%;
+  }
+
+  .flex_parent {
+    margin: auto;
+    margin-left: 13px;
+}
+
+.bio_img_container {
+    width:100%;
+}
+
+.bio_img_marina {
+    background-size: cover;
+    height: 400px;
+    background-position: bottom;
+}
+
+.main_image {
+    margin-bottom: 20px;
+}
+
+
+}

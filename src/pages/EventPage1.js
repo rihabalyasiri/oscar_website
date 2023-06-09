@@ -16,11 +16,12 @@ const EventPage1 = () => {
             <EventInfo
                 subheader="Fr., 16. Juni  |  Lloret de Mar"
                 concertName="[CONCERT] Església de Sant Romà de Lloret de Mar"
-                description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-          voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-          sequi voluptate quas."
+                description="Three centuries of Spanish culture, where you can listen to Flamenco music and beyond at the highest expression. 
+                An insight into the authentic Spanish soul and a complete Spanish journey in all its territory, hosted in a 17th century palace, recently 
+                refurnished for our clients comfort."
                 time="16. Juni, 21:00 – 22:00"
                 adresse="Lloret de Mar, Plaça de l'Església, 4, 17310 Lloret de Mar, Girona, Spain"
+                
             />
             <FooterAdvanced />
         </div>

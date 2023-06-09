@@ -10,10 +10,7 @@ export default function App() {
           concertName="[CONCERT] Església de Sant Romà de Lloret de Mar"
           date="16. Juni, 21:00 – 22:00"
           adresse="Lloret de Mar, Plaça de l'Església, 4, 17310 Lloret de Mar, Girona, Spain"
-          description="Three centuries of Spanish culture, where you can listen to Flamenco music and beyond at the highest expression. 
-          An insight into the authentic Spanish soul and a complete Spanish journey in all its territory, hosted in a 17th century palace, recently 
-          refurnished for our clients comfort."
-          link="/event1"
+          link="/lioret_de_mare"
         />
       </div>
 

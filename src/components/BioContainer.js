@@ -4,6 +4,9 @@ import React from "react";
 const OscarBio = () => {
     return <div className="bio_container">
         <div className="bio_text">
+            <div className="bio_img_container">
+                <div className="bio_img_oscar"></div>
+            </div>
             <h1 className="bio_header">Oscar Piñeiro</h1>
 
             <p>Oscar Piñeiro's passion for music was evident from a young age. Born and raised in a small town, he began his musical journey at the Escuela de Música y Danza in Colonia, Germany, where he pursued a Bachelor's degree in Music from 2015 to 2018. Under the guidance of his mentor, Professor Zakhar Bron, Oscar developed his violin skills and embraced the world of classical music.</p>
@@ -22,6 +25,9 @@ const OscarBio = () => {
         </div>
 
         <div className="bio_text">
+        <div className="bio_img_container">
+                <div className="bio_img_marina"></div>
+            </div>
             <h1 className="bio_header">Marina Piñeiro</h1>
 
             <p>Marina Piñeiro's life has been dedicated to the world of music. Born in Spain, she began her musical education at a young age and has since traveled the world, mastering the piano and sharing her knowledge with others.

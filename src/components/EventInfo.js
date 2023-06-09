@@ -1,4 +1,7 @@
 import React from "react";
+import {
+    MDBBtn
+} from 'mdb-react-ui-kit';
 
 const EventInfo = (props) => {
     return <div className="event_container">
@@ -12,6 +15,8 @@ const EventInfo = (props) => {
             <h4>Time & Location:</h4>
             <p>{props.time}</p>
             <p>{props.adresse}</p>
+            <MDBBtn href="https://en.eventospalaudalmases.com/virtuosos" color='danger'  target="_blank"
+            rel="noopener noreferrer">Buy Ticket</MDBBtn>
            
         </div>
 

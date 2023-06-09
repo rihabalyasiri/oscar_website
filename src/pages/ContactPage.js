@@ -8,7 +8,7 @@ import SmallContainer from "../components/SmallContainer"
 const ContactPage = () => {
     return <div>
         <Menu/>
-        <SmallContainer titel="CONTACT" background="main_image cover_height" main_image="event_cover" bg_small="bg_small" />
+        <SmallContainer titel="CONTACT" background="main_image cover_height" main_image="event_cover_img" bg_small="bg_small" />
         <Contact/>
         <FooterAdvanced/>
     </div>
