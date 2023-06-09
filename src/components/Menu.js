@@ -9,7 +9,6 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import HamburgerMenu from './HamburgerMenu';
 
 export default function App() {
   const [showNav, setShowNav] = useState(true);

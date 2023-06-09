@@ -1,11 +1,8 @@
 .main_image {
     width: 100%;
     height: 850px;
-    background-image: url("../imgs/background.PNG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
     position: relative;
+    background-color: #000000;
     
    
 }
@@ -33,29 +30,24 @@
 }
 
 .img1 {
-    width: 50%;
+    width:100%;
     height: 700px;
     background-image: url("../imgs/pic3.jpg");
     background-repeat: no-repeat;
-    padding-left: 5%;
     border-radius: 15px;
-    border-top-right-radius: 15px;
     background-size: cover;
+    margin-bottom: 40px;
 }
 
 .img2 {
-    width: 50%;
-    height: 700px;
+    width: 100%;
+    height: 560px;
     background-image: url("../imgs/mother.webp");
     background-repeat: no-repeat;
     padding-left: 5%;
     border-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
-}
-
-.flex_text {
-    width: 80%;
+    border-bottom-right-radius: 15px;
+    background-size: conatin;
 }
 
 .header {
@@ -66,21 +58,37 @@
 
 .flex_parent {
     display: flex;
+    width: 90%;
     justify-content: space-around;
+    align-items: center;
     padding-top: 8%;
     padding-bottom: 8%;
-    padding-left: 15%;
-    padding-right: 15%;
   
 }
 
+.flex_parent.description_container {
+    width: 45%;
+}
+
+.image_container {
+    width: 35%;
+}
+
 .flex_parent_bg {
-    background-color: #5c0e11;
-    color: #dadada;
+    background-image: url("../imgs/red_cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #f2e0e0;
+}
+
+.description_container {
+    font-size: 17px;
+    width:50%;
 }
 
 .flex_parent2 {
-    background-color: #E0E0E0;
+    background-image: url("../imgs/gray_cover.png");
     display: flex;
     justify-content: space-around;
     padding-top: 8%;
@@ -89,29 +97,12 @@
     padding-right: 15%;
 }
 
-.flex {
-    padding: 6%;
-    font-family: 'Raleway';
-    font-size: 20px;
-}
-.flex_parent:first-child {
-    padding-left: 20%;
-   
-}
-.flex_parent:last-child {
-    padding-right: 20%;
-}
-
-
-
-.flex_parent:nth-child(1) {
-    padding-right: 10%;
-}
 
 .menu {
-    background-color: #091217;
     color: white !important;
     padding-left: 2%;
+    filter: brightness(85%);
+    background: linear-gradient(#101b21 100%, transparent 100%);
 }
 
 .white_text {
