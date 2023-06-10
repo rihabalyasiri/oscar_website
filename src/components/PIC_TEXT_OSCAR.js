@@ -2,10 +2,10 @@ import React from "react";
 
 export default function App() {
   return (
-    <div className="flex_parent_bg" id="about_us">
-      <div className="flex_parent ">
-              <div className="image_container">
-                  <div className="img1"></div>
+    <div className="flex_parent1_bg" id="about_us">
+      <div className="flex_parent">
+        <div className="image_container">
+          <div className="img1"></div>
         </div>
         <div className="description_container">
           <h2 className="header">SPANISH VIRTUOSOS</h2>

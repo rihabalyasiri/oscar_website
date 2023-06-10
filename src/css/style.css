@@ -15,7 +15,7 @@
 .logo {
   width: 100px;
   height: 100px;
-  background-image: url("../imgs//logo.webp");
+  background-image: url("../imgs/logo.webp");
   margin-right: 20px;
 }
 
@@ -54,14 +54,7 @@
   padding-bottom: 20px;
 }
 
-.flex_parent {
-  display: flex;
-  width: 90%;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 8%;
-  padding-bottom: 8%;
-}
+
 
 .flex_parent.description_container {
   width: 45%;
@@ -71,7 +64,16 @@
   width: 35%;
 }
 
-.flex_parent_bg {
+.flex_parent {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+.flex_parent1_bg {
   background-image: url("../imgs/red_cover.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,27 +81,26 @@
   color: #f2e0e0;
 }
 
-.description_container {
-  font-size: 17px;
-  width: 50%;
+.flex_parent2_bg {
+    background-image: url("../imgs/gray_cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
-.flex_parent2 {
-  background-image: url("../imgs/gray_cover.png");
-  display: flex;
-  justify-content: space-around;
-  background-repeat: no-repeat;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  padding-left: 15%;
-  padding-right: 15%;
+
+.description_container {
+  font-size: 17px;
+  width: 45%;
 }
+
+
 
 .menu {
   color: white !important;
   padding-left: 2%;
   filter: brightness(85%);
-  background: linear-gradient(#101b21 100%, transparent 100%);
+  background: linear-gradient(#000000 100%, transparent 100%);
 }
 
 .white_text {
@@ -219,12 +220,15 @@ a.nav-link:hover {
 
 .event_cover_img {
   background-image: url("../imgs/flamenco.png");
-  width:100%;
-  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+  background-position: right;
 }
 
 .cover_height {
-  height: 550px;
+  height: 580px;
 }
 
 .event_info {
@@ -393,32 +397,111 @@ h6 {
 }
 
 @media only screen and (max-width: 1395px) {
+  .titel_main_container {
+    padding-top: 53%;
+  }
+
+  .description_container {
+    font-size: 20px;
+    width: 45%;
+  }
+
+  .image_container {
+    width: 40%;
+  }
+
+  .extra_width {
+    width: 60%;
+    margin-right: 20px;
+  }
+
+  .flex_parent2 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
     .titel_main_container {
-        padding-top: 53%;
+        padding-top: 185%;
+        font-size: 37px;
     }
 
-    .description_container {
-        font-size: 20px;
-        width: 45%;
+    .main_image_child {
+        background-position: inherit;
+    }
+
+    .flex_parent {
+        flex-direction: column;
+    }
+
+    .img1{
+        height:500px;
     }
 
     .image_container {
-        width: 40%;
+        width: 90%;
     }
 
-    .extra_width {
-        width: 60%;
-        margin-right: 20px;
+    .description_container {
+        width:90%;
+        font-size: 20px;
     }
 
-    .flex_parent2 {
-        padding-left: 10%;
-        padding-right: 10%;
+    .flex_parent {
+        padding-top:20%;
+        width:100%;
     }
 
+    .flex_parent1_bg {
+        height: 1337px;
+    }
+
+    .blond_header {
+        font-style: oblique;
+        font-size: 41px;
+    }
+
+    .card_flex {
+        margin-left: 22px;
+        margin-bottom: 10px;
+    }
+
+    .card_flex  div {
+        margin-bottom: 20px;
+    }
+
+    .header_small_container {
+        padding-top: 118%;
+        font-size: 47px;
+    }
+
+    .biogrphy_image {
+        background-position: inherit;
+    }
+
+    .bio_img_container {
+        width:90%;
+    }
+
+    .bio_text {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .event_info {
+        width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+       padding-left:0px;
+    }
 }
 
 @media only screen and (max-width: 390px) {
+  .img2 {
+    margin-top: 445px;
+    background-size: contain;
+  }
   .flex_parent {
     flex-direction: column;
     padding: 0px;
@@ -427,7 +510,9 @@ h6 {
   .flex_parent2 {
     flex-direction: column;
     padding: 0px;
-    height: 1530px;
+    height: 1388px;
+    background-size: cover;
+    margin-top: -55px;
   }
 
   .flex_parent:first-child {
@@ -445,7 +530,7 @@ h6 {
   .img2 {
     height: 450px;
     border-radius: 0px;
-    margin-top: 30px;
+    margin-left: 13px;
     width: 100%;
   }
 
@@ -474,14 +559,14 @@ h6 {
   }
 
   .header {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .flex_text {
     width: 95%;
   }
 
   .blond_header {
-    font-size: 30px;
+    font-size: 35px;
   }
   .center_header {
     margin-top: 15px;
@@ -569,22 +654,39 @@ h6 {
   }
   .image_container {
     width: 100%;
-}
-.description_container {
+  }
+  .description_container {
     font-size: 17px;
     width: 90%;
     padding-left: 10px;
     height: 680px;
-}
-.bio_img_container {
+    margin-top: -60px;
+  }
+  .bio_img_container {
     width: 100%;
-}
+  }
 
-.contact_container {
+  .contact_container {
     width: 100%;
+  }
 }
 
+@media only screen and (max-width: 390px) {
+    .logo_text {
+        margin-right: 0px;
+    }
 
+    .img1 {
+        margin-left:-3px;
+    }
+
+    .img2 {
+        margin-left:- 3px;
+    }
+
+    .card_flex {
+        margin-left:15px;
+    }
 }
 
 @media only screen and (max-width: 280px) {
@@ -606,8 +708,6 @@ h6 {
   .flex_parent.description_container {
     width: 90%;
   }
-
-
 
   .img1 {
     margin-left: 0;
@@ -647,42 +747,39 @@ h6 {
 
   .flex_parent2 {
     height: 1300px;
-    
   }
 
   .img1 {
     margin-bottom: 5px;
-    height:280px;
+    height: 280px;
   }
 
   .img2 {
-    height:280px;
+    height: 280px;
     background-size: contain;
   }
 
   .image_container {
-    margin-left:25px;
+    margin-left: 25px;
     width: 90%;
   }
 
   .flex_parent {
     margin: auto;
     margin-left: 13px;
-}
+  }
 
-.bio_img_container {
-    width:100%;
-}
+  .bio_img_container {
+    width: 100%;
+  }
 
-.bio_img_marina {
+  .bio_img_marina {
     background-size: cover;
     height: 400px;
     background-position: bottom;
-}
+  }
 
-.main_image {
+  .main_image {
     margin-bottom: 20px;
-}
-
-
+  }
 }
