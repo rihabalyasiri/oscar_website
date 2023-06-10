@@ -18,7 +18,7 @@ const EventPage2 = () => {
                 description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
             sequi voluptate quas."
-                time="18. Juni, 19:00 – 20:40"
+                time="18. Juni, 20:00 – 21:40"
                 adresse="Barcelona, C/ de Montcada, 20, 08003 Barcelona, Spain" />
             <FooterAdvanced />
         </div>

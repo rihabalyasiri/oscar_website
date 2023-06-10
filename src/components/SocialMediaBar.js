@@ -1,10 +1,17 @@
-import React from 'react';
-import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+import React from "react";
 
-export default function App() {
+
+const SocialMediaBar = () => {
   return (
-    <MDBBtn size='lg' floating style={{ backgroundColor: '#ac2bac' }} href='#'>
-      <MDBIcon fab icon='instagram' />
-    </MDBBtn>
+    <div className=""> 
+     
+    </div>
   );
-}
+};
+
+export default SocialMediaBar;
+
+
+//TODO: check design on all devices
+// TODO: SEO
+//TODO: Social Media on Contact
