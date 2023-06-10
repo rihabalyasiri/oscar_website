@@ -3,7 +3,7 @@ import React from "react";
 export default function App() {
   return (
     <div className=" flex_parent2">
-      <div className="description_container">
+      <div className="description_container extra_width">
         <h2 className="header">THE PERFORMANCE</h2>
         <p>
           Spanish Virtuosos presents an interactive show that combines flamenco

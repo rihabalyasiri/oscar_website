@@ -88,6 +88,7 @@
   background-image: url("../imgs/gray_cover.png");
   display: flex;
   justify-content: space-around;
+  background-repeat: no-repeat;
   padding-top: 8%;
   padding-bottom: 8%;
   padding-left: 15%;
@@ -389,6 +390,32 @@ h6 {
   background-image: url("../imgs/mother.webp");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 1395px) {
+    .titel_main_container {
+        padding-top: 53%;
+    }
+
+    .description_container {
+        font-size: 20px;
+        width: 45%;
+    }
+
+    .image_container {
+        width: 40%;
+    }
+
+    .extra_width {
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    .flex_parent2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
 
 @media only screen and (max-width: 390px) {
